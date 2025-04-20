@@ -73,7 +73,7 @@ const Home: React.FC = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="2.jpg" 
+                src="https://images.pexels.com/photos/31715748/pexels-photo-31715748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="Jewelry crafting" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />

@@ -8,8 +8,8 @@ export const products: Product[] = [
     category: "rings",
     description: "An elegant diamond solitaire ring set in 18k white gold, featuring a stunning 1-carat diamond with excellent clarity and cut.",
     images: [
-      "2.jpg",
-      "4.jpg"
+      "https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/31715750/pexels-photo-31715750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     featured: true,
     metal: "18K White Gold",
@@ -24,8 +24,8 @@ export const products: Product[] = [
     category: "necklaces",
     description: "A luxurious freshwater pearl pendant necklace with 14k gold chain, perfectly balanced for everyday elegance.",
     images: [
-      "6.jpg",
-      "8.jpg"
+      "https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/31715746/pexels-photo-31715746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     bestseller: true,
     metal: "14K Yellow Gold",
@@ -40,8 +40,8 @@ export const products: Product[] = [
     category: "earrings",
     description: "Beautiful sapphire drop earrings featuring 2 carats of deep blue natural sapphires surrounded by pavé diamonds.",
     images: [
-      "11.jpg", 
-      "12.jpg"
+      "https://images.pexels.com/photos/31715750/pexels-photo-31715750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", 
+      "https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     new: true,
     metal: "18K White Gold",

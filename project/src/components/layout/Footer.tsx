@@ -60,13 +60,13 @@ Services:
           <div>
             <h4 className="text-white font-semibold text-lg mb-6">Stay Updated</h4>
             <p className="text-gray-300 mb-4">Subscribe to our newsletter for exclusive offers and updates.</p>
-            <div className="flex">
+            <div className="flex max-w-xs">
               <input 
                 type="email" 
                 placeholder="Your email" 
-                className="px-4 py-2 bg-gray-800 text-white rounded-l focus:outline-none focus:ring-1 focus:ring-gold"
+                className="w-48 px-4 py-2 bg-gray-800 text-white rounded-l focus:outline-none focus:ring-1 focus:ring-gold text-sm"
               />
-              <button className="bg-gold text-jewelry-primary px-4 py-2 rounded-r hover:bg-gold-dark transition">
+              <button className="bg-gold text-jewelry-primary px-4 py-2 rounded-r hover:bg-gold-dark transition text-sm whitespace-nowrap">
                 Subscribe
               </button>
             </div>

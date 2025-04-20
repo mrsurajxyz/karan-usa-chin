@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingBag, Heart, User, Search, Menu, X } from 'lucide-react';
+import { ShoppingBag, Heart, Menu, X } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
 const Navbar: React.FC = () => {
@@ -40,16 +40,8 @@ const Navbar: React.FC = () => {
 
         {/* Action Icons */}
         <div className="flex items-center space-x-4">
-          <button className="text-jewelry-primary hover:text-gold transition">
-            <Search size={20} />
-          </button>
-          
           <Link to="/wishlist" className="text-jewelry-primary hover:text-gold transition">
             <Heart size={20} />
-          </Link>
-          
-          <Link to="/account" className="text-jewelry-primary hover:text-gold transition">
-            <User size={20} />
           </Link>
           
           <Link to="/cart" className="text-jewelry-primary hover:text-gold transition relative">
@@ -65,47 +57,47 @@ const Navbar: React.FC = () => {
             className="md:hidden text-jewelry-primary"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <X size={27} /> : <Menu size={27} />}
           </button>
         </div>
       </div>
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white absolute top-full left-0 right-0 shadow-md animate-fade-in">
+        <div className="md:hidden fixed top-[60px] left-0 right-0 bottom-0 bg-white shadow-md animate-fade-in overflow-y-auto">
           <div className="container mx-auto px-4 py-4">
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/category/all" 
-                className="text-jewelry-primary hover:text-gold transition py-2 border-b border-gray-100"
+                className="text-jewelry-primary hover:text-gold transition py-3 border-b border-gray-100 text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 All Jewelry
               </Link>
               <Link 
                 to="/category/rings" 
-                className="text-jewelry-primary hover:text-gold transition py-2 border-b border-gray-100"
+                className="text-jewelry-primary hover:text-gold transition py-3 border-b border-gray-100 text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Rings
               </Link>
               <Link 
                 to="/category/necklaces" 
-                className="text-jewelry-primary hover:text-gold transition py-2 border-b border-gray-100"
+                className="text-jewelry-primary hover:text-gold transition py-3 border-b border-gray-100 text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Necklaces
               </Link>
               <Link 
                 to="/category/earrings" 
-                className="text-jewelry-primary hover:text-gold transition py-2 border-b border-gray-100"
+                className="text-jewelry-primary hover:text-gold transition py-3 border-b border-gray-100 text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Earrings
               </Link>
               <Link 
                 to="/category/bracelets" 
-                className="text-jewelry-primary hover:text-gold transition py-2"
+                className="text-jewelry-primary hover:text-gold transition py-3 text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Bracelets
