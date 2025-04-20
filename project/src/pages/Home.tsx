@@ -91,12 +91,12 @@ const Home: React.FC = () => {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
-            <img src="1.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
-            <img src="2.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
-            <img src="3.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
-            <img src="4.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
-            <img src="11.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
-            <img src="8.jpg" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715746/pexels-photo-31715746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715747/pexels-photo-31715747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715751/pexels-photo-31715751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715747/pexels-photo-31715747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
+            <img src="https://images.pexels.com/photos/31715746/pexels-photo-31715746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className="w-full h-52 object-cover hover:opacity-90 transition" alt="Instagram post" />
           </div>
         </div>
       </section>

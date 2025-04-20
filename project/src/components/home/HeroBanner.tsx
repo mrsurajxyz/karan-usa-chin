@@ -7,7 +7,7 @@ const HeroBanner: React.FC = () => {
       {/* Hero Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="5.jpg" 
+          src="5.jpghttps://images.pexels.com/photos/31715747/pexels-photo-31715747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
           alt="Luxury jewelry collection" 
           className="w-full h-full object-cover"
         />

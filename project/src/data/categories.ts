@@ -4,7 +4,7 @@ export const categories: Category[] = [
   {
     id: 1,
     name: "Rings",
-    image: "3.jpg",
+    image: "https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     itemCount: 42
   },
   {
@@ -16,13 +16,13 @@ export const categories: Category[] = [
   {
     id: 3,
     name: "Earrings",
-    image: "1.jpg",
+    image: "https://images.pexels.com/photos/31715751/pexels-photo-31715751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     itemCount: 45
   },
   {
     id: 4,
     name: "Bracelets",
-    image: "10.jpg",
+    image: "https://images.pexels.com/photos/31715746/pexels-photo-31715746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     itemCount: 29
   }
 ];

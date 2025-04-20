@@ -56,8 +56,8 @@ export const products: Product[] = [
     category: "bracelets",
     description: "A classic diamond tennis bracelet featuring 3 carats of brilliant round diamonds set in 14k yellow gold.",
     images: [
-      "11.jpg",
-      "2.jpg"
+      "https://images.pexels.com/photos/31715749/pexels-photo-31715749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/31715746/pexels-photo-31715746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     ],
     featured: true,
     metal: "14K Yellow Gold",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     category: "bracelets",
     description: "A sterling silver charm bracelet featuring five unique handcrafted charms representing love and prosperity.",
     images: [
-      "10.jpg", "11.jpg"    ],
+      "https://images.pexels.com/photos/31715751/pexels-photo-31715751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "https://images.pexels.com/photos/31715747/pexels-photo-31715747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"    ],
     metal: "Sterling Silver",
     weight: "12g",
     inStock: true
